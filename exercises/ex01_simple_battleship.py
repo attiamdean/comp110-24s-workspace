@@ -36,6 +36,3 @@ if User2_guess1 == 4 : print(BLUE_BOX + BLUE_BOX + BLUE_BOX + Guessbox_color)
 if User2_guess1 == User1_boat_location : print("Correct! You hit the ship.")
 
 if User2_guess1 != User1_boat_location and User2_guess1 > 4 and User2_guess1 < 0 : print("Incorrect! You missed the ship.")
-
-
-
